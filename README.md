@@ -54,4 +54,4 @@ This project develops the AOI system by using Visual Studio 2017 and OpenCV libr
 
 In this project, the AOI system was implemented to detect the scratch defect on metal surface in a metal case industry. The object consist of five side surface, top surface and four side surface. However, in this project we just use one side surface which has some defects. We tested four different images which have different field of view (FOV). In this experiments, we evaluate the performance of the proposed image processing method in each steps and observe the impact of adjusting the parameter in order to find the best parameter setting to detect the defect clearly.
 
-![roi](region-of-interest.PNG)
+![roi](images/final-results.PNG)
