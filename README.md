@@ -34,5 +34,21 @@ Morphology is a broad set of image processing operations that process images bas
 ![dilation](images/results.PNG)
 
 
+## 4. Contours
+
+A countour is a collection of a series of points in an image that represent boundaries. Although the edge detection algorithm can check the pixel of the contour boundary based on the difference between pixels, it does not represent the contour as a whole. Opencv can be used to extract outlines from a two-value image using the `Findcontours()` function.
+
+## 5. Bounding Box
+
+Bounding boxes are imaginary boxes that are around object which being checked for collision. In digital image processing, the bounding box is merely the coordinates of the rectangular border that fully encloses a digital imae when it is placed over a page, a canvas, a screen, or other similar bi-dimensional background.
+
+# Results
+
+## UI Software Interface of the AOI system
+
+This project develops the AOI system by using Visual Studio 2017 and OpenCV libraries. The UI software allows the user to input the image and then apply the image procesing method to detect the defect on the objects.
+
+![UI Software] (images/user-interface-design-1.PNG)
+![UI Software] (images/user-interface-design-2.PNG)
 
 
