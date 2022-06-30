@@ -48,8 +48,7 @@ Bounding boxes are imaginary boxes that are around object which being checked fo
 
 This project develops the AOI system by using Visual Studio 2017 and OpenCV libraries. The UI software allows the user to input the image and then apply the image procesing method to detect the defect on the objects.
 
-![UISoftware] (images/user-interface-design-1.PNG)
-
-![UISoftware2] (images/user-interface-design-2.PNG)
+![UISoftware](images/user-interface-design-1.PNG)
+![UISoftware2](images/user-interface-design-2.PNG)
 
 
