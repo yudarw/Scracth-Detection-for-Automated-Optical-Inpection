@@ -42,8 +42,6 @@ A countour is a collection of a series of points in an image that represent boun
 
 Bounding boxes are imaginary boxes that are around object which being checked for collision. In digital image processing, the bounding box is merely the coordinates of the rectangular border that fully encloses a digital imae when it is placed over a page, a canvas, a screen, or other similar bi-dimensional background.
 
-# Results
-
 ## UI Software Interface of the AOI system
 
 This project develops the AOI system by using Visual Studio 2017 and OpenCV libraries. The UI software allows the user to input the image and then apply the image procesing method to detect the defect on the objects.
@@ -52,3 +50,8 @@ This project develops the AOI system by using Visual Studio 2017 and OpenCV libr
 ![UISoftware2](images/user-interface-design-2.PNG)
 
 
+# Results
+
+In this project, the AOI system was implemented to detect the scratch defect on metal surface in a metal case industry. The object consist of five side surface, top surface and four side surface. However, in this project we just use one side surface which has some defects. We tested four different images which have different field of view (FOV). In this experiments, we evaluate the performance of the proposed image processing method in each steps and observe the impact of adjusting the parameter in order to find the best parameter setting to detect the defect clearly.
+
+![roi](region-of-interest.PNG)
