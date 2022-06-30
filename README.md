@@ -27,3 +27,12 @@ The input images have a lot of noise due to unstable lighting conditions. The no
 Canny edge detection is one of the most commonly used image processing method for edge detection in very robust manner. 
 ![Gaussian Filtering](/images/canny-edges.PNG)
 
+## 3. Image Morphology (Dilation)
+
+Morphology is a broad set of image processing operations that process images based on shapes. Morphological operations apply a structuring element to an input image, creating an output image of the same size. In a morphological operation, the value of each pixel in the output image is based on a comparison of the corresponding pixel in the input image with its neighbors. Dilation is a transformation that produces an image that is the same shape as the original, but is a different size. Dilation adds pixels to the bounddaries of objects in an image. Morphological dilation makes objects more visible and fills in small holes in objects.
+
+![dilation](images/results.PNG)
+
+
+
+
