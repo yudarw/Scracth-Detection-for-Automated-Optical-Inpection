@@ -22,4 +22,8 @@ The input images have a lot of noise due to unstable lighting conditions. The no
 
 ![Gaussian Filtering](/images/gaussian.PNG)
 
+## 2. Canny Edge Detection
+
+Canny edge detection is one of the most commonly used image processing method for edge detection in very robust manner. 
+![Gaussian Filtering](/images/canny-edges.PNG)
 
